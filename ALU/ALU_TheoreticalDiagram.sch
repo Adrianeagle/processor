@@ -674,7 +674,7 @@ Based on the following sources:
 <wire x1="-5.08" y1="30.48" x2="-10.16" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="VCC"/>
 <wire x1="-5.08" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
