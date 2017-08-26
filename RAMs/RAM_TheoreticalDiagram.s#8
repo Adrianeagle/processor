@@ -962,7 +962,7 @@ Based on the following sources:
 <text x="-7.62" y="-187.96" size="1.778" layer="91">DATA OUTPUT</text>
 <text x="-193.04" y="45.72" size="1.778" layer="91">ENABLE
 OUTPUT</text>
-<text x="-190.5" y="-83.82" size="1.778" layer="91">ENABLE
+<text x="-200.66" y="-86.36" size="1.778" layer="91">ENABLE
  INPUT</text>
 <text x="-251.46" y="71.12" size="1.778" layer="91">ADDRESS</text>
 <text x="-281.94" y="2.54" size="1.778" layer="91">ENABLE
@@ -996,926 +996,6 @@ WRITE</text>
 <busses>
 </busses>
 <nets>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="1D"/>
-<wire x1="-15.24" y1="93.98" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="1D"/>
-<wire x1="-15.24" y1="116.84" x2="-53.34" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="116.84" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="1D"/>
-<wire x1="81.28" y1="93.98" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="1D"/>
-<wire x1="81.28" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="116.84" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
-<junction x="-15.24" y="116.84"/>
-<junction x="43.18" y="116.84"/>
-<wire x1="10.16" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="116.84" x2="10.16" y2="157.48" width="0.1524" layer="91"/>
-<junction x="10.16" y="116.84"/>
-<pinref part="IC1" gate="A" pin="8Q"/>
-<wire x1="-71.12" y1="68.58" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="48.26" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="8D"/>
-<wire x1="63.5" y1="48.26" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<junction x="63.5" y="48.26"/>
-<pinref part="IC7" gate="A" pin="8D"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<junction x="25.4" y="48.26"/>
-<pinref part="IC5" gate="A" pin="8Q"/>
-<wire x1="25.4" y1="48.26" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="68.58" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-33.02" y="48.26"/>
-<pinref part="IC4" gate="A" pin="8D"/>
-<wire x1="-33.02" y1="25.4" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="8D"/>
-<wire x1="-71.12" y1="48.26" x2="-71.12" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-71.12" y="48.26"/>
-<wire x1="10.16" y1="116.84" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
-<junction x="10.16" y="48.26"/>
-<pinref part="IC8" gate="A" pin="8Q"/>
-<wire x1="63.5" y1="-20.32" x2="63.5" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="8Q"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="25.4" y="-20.32"/>
-<pinref part="IC4" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="-20.32" x2="-33.02" y2="0" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-33.02" y="-20.32"/>
-<pinref part="IC3" gate="A" pin="8Q"/>
-<wire x1="10.16" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="0" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="-20.32" x2="-33.02" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="48.26" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="10.16" y="-20.32"/>
-<pinref part="IC12" gate="A" pin="8D"/>
-<wire x1="63.5" y1="-43.18" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="63.5" y="-20.32"/>
-<pinref part="IC11" gate="A" pin="8D"/>
-<wire x1="25.4" y1="-20.32" x2="25.4" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="8D"/>
-<wire x1="-33.02" y1="-43.18" x2="-33.02" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="8D"/>
-<wire x1="-71.12" y1="-43.18" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-71.12" y="-20.32"/>
-<pinref part="IC9" gate="A" pin="8Q"/>
-<wire x1="-71.12" y1="-68.58" x2="-71.12" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="-88.9" x2="-33.02" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="-88.9" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-88.9" x2="63.5" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-88.9" x2="63.5" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC16" gate="A" pin="8D"/>
-<wire x1="63.5" y1="-88.9" x2="63.5" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="63.5" y="-88.9"/>
-<pinref part="IC15" gate="A" pin="8D"/>
-<wire x1="25.4" y1="-111.76" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
-<junction x="25.4" y="-88.9"/>
-<pinref part="IC11" gate="A" pin="8Q"/>
-<wire x1="25.4" y1="-88.9" x2="25.4" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="-68.58" x2="-33.02" y2="-88.9" width="0.1524" layer="91"/>
-<junction x="-33.02" y="-88.9"/>
-<pinref part="IC14" gate="A" pin="8D"/>
-<wire x1="-33.02" y1="-111.76" x2="-33.02" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="8D"/>
-<wire x1="-71.12" y1="-88.9" x2="-71.12" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="-71.12" y="-88.9"/>
-<junction x="10.16" y="-88.9"/>
-<pinref part="IC16" gate="A" pin="8Q"/>
-<wire x1="63.5" y1="-157.48" x2="63.5" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="8Q"/>
-<wire x1="25.4" y1="-137.16" x2="25.4" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-157.48" x2="63.5" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="-157.48"/>
-<pinref part="IC14" gate="A" pin="8Q"/>
-<wire x1="-33.02" y1="-157.48" x2="-33.02" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-157.48" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="-33.02" y="-157.48"/>
-<pinref part="IC13" gate="A" pin="8Q"/>
-<wire x1="10.16" y1="-157.48" x2="25.4" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="-137.16" x2="-71.12" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="-157.48" x2="-33.02" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-88.9" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="10.16" y="-157.48"/>
-<wire x1="10.16" y1="-20.32" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-157.48" x2="10.16" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="7D"/>
-<wire x1="27.94" y1="93.98" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="7D"/>
-<wire x1="27.94" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="132.08" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="7D"/>
-<wire x1="-68.58" y1="93.98" x2="-68.58" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="7D"/>
-<wire x1="-68.58" y1="132.08" x2="-30.48" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="132.08" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="132.08" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
-<junction x="27.94" y="132.08"/>
-<junction x="-30.48" y="132.08"/>
-<wire x1="-5.08" y1="132.08" x2="-30.48" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="132.08" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
-<junction x="-5.08" y="132.08"/>
-<pinref part="IC1" gate="A" pin="2Q"/>
-<wire x1="-55.88" y1="68.58" x2="-55.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="63.5" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="2Q"/>
-<wire x1="40.64" y1="68.58" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<junction x="40.64" y="63.5"/>
-<pinref part="IC2" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="68.58" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-17.78" y="63.5"/>
-<pinref part="IC8" gate="A" pin="2D"/>
-<wire x1="78.74" y1="63.5" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<junction x="78.74" y="63.5"/>
-<pinref part="IC7" gate="A" pin="2D"/>
-<wire x1="40.64" y1="63.5" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="2D"/>
-<wire x1="-17.78" y1="63.5" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="2D"/>
-<wire x1="-55.88" y1="63.5" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-55.88" y="63.5"/>
-<wire x1="-5.08" y1="132.08" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-5.08" y="63.5"/>
-<pinref part="IC8" gate="A" pin="2Q"/>
-<wire x1="78.74" y1="-5.08" x2="78.74" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="2Q"/>
-<wire x1="40.64" y1="0" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-5.08" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="40.64" y="-5.08"/>
-<pinref part="IC4" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="0" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-5.08"/>
-<wire x1="-17.78" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="2Q"/>
-<wire x1="-5.08" y1="-5.08" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="0" x2="-55.88" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-5.08" x2="-17.78" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="63.5" x2="-5.08" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-5.08"/>
-<pinref part="IC12" gate="A" pin="2D"/>
-<wire x1="78.74" y1="-43.18" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="78.74" y="-5.08"/>
-<pinref part="IC11" gate="A" pin="2D"/>
-<wire x1="40.64" y1="-43.18" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="2D"/>
-<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="2D"/>
-<wire x1="-55.88" y1="-5.08" x2="-55.88" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-55.88" y="-5.08"/>
-<pinref part="IC9" gate="A" pin="2Q"/>
-<wire x1="-55.88" y1="-68.58" x2="-55.88" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-73.66" x2="-17.78" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="-73.66" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-73.66" x2="40.64" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-73.66" x2="78.74" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-73.66" x2="78.74" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="2Q"/>
-<wire x1="40.64" y1="-68.58" x2="40.64" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="40.64" y="-73.66"/>
-<pinref part="IC10" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="-68.58" x2="-17.78" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-73.66"/>
-<pinref part="IC16" gate="A" pin="2D"/>
-<wire x1="78.74" y1="-73.66" x2="78.74" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="78.74" y="-73.66"/>
-<pinref part="IC15" gate="A" pin="2D"/>
-<wire x1="40.64" y1="-73.66" x2="40.64" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="2D"/>
-<wire x1="-17.78" y1="-73.66" x2="-17.78" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="2D"/>
-<wire x1="-55.88" y1="-73.66" x2="-55.88" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="-55.88" y="-73.66"/>
-<junction x="-5.08" y="-73.66"/>
-<pinref part="IC16" gate="A" pin="2Q"/>
-<wire x1="78.74" y1="-142.24" x2="78.74" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="2Q"/>
-<wire x1="40.64" y1="-137.16" x2="40.64" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-142.24" x2="78.74" y2="-142.24" width="0.1524" layer="91"/>
-<junction x="40.64" y="-142.24"/>
-<pinref part="IC14" gate="A" pin="2Q"/>
-<wire x1="-17.78" y1="-142.24" x2="-17.78" y2="-137.16" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-142.24"/>
-<wire x1="-17.78" y1="-142.24" x2="-5.08" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="2Q"/>
-<wire x1="-5.08" y1="-142.24" x2="40.64" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-137.16" x2="-55.88" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-142.24" x2="-17.78" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-73.66" x2="-5.08" y2="-142.24" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-142.24"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-142.24" x2="-5.08" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="5D"/>
-<wire x1="33.02" y1="93.98" x2="33.02" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="5D"/>
-<wire x1="33.02" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="127" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="5D"/>
-<wire x1="-63.5" y1="93.98" x2="-63.5" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="5D"/>
-<wire x1="-63.5" y1="127" x2="-25.4" y2="127" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="127" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="127" x2="0" y2="127" width="0.1524" layer="91"/>
-<junction x="33.02" y="127"/>
-<junction x="-25.4" y="127"/>
-<wire x1="0" y1="127" x2="-25.4" y2="127" width="0.1524" layer="91"/>
-<wire x1="0" y1="127" x2="0" y2="157.48" width="0.1524" layer="91"/>
-<junction x="0" y="127"/>
-<pinref part="IC1" gate="A" pin="4Q"/>
-<wire x1="-60.96" y1="68.58" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="0" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="58.42" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="4Q"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="35.56" y="58.42"/>
-<pinref part="IC2" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="68.58" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-22.86" y="58.42"/>
-<pinref part="IC8" gate="A" pin="4D"/>
-<wire x1="73.66" y1="58.42" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<junction x="73.66" y="58.42"/>
-<pinref part="IC7" gate="A" pin="4D"/>
-<wire x1="35.56" y1="25.4" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="4D"/>
-<wire x1="-22.86" y1="25.4" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="4D"/>
-<wire x1="-60.96" y1="58.42" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-60.96" y="58.42"/>
-<wire x1="0" y1="127" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<junction x="0" y="58.42"/>
-<pinref part="IC8" gate="A" pin="4Q"/>
-<wire x1="73.66" y1="-10.16" x2="73.66" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="4Q"/>
-<wire x1="35.56" y1="0" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="35.56" y="-10.16"/>
-<pinref part="IC4" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="0" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-10.16"/>
-<wire x1="-22.86" y1="-10.16" x2="0" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="4Q"/>
-<wire x1="0" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="0" x2="-60.96" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-10.16" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="0" y1="58.42" x2="0" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="0" y="-10.16"/>
-<pinref part="IC12" gate="A" pin="4D"/>
-<wire x1="73.66" y1="-43.18" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="73.66" y="-10.16"/>
-<pinref part="IC11" gate="A" pin="4D"/>
-<wire x1="35.56" y1="-43.18" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="4D"/>
-<wire x1="-22.86" y1="-43.18" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="4D"/>
-<wire x1="-60.96" y1="-43.18" x2="-60.96" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-60.96" y="-10.16"/>
-<pinref part="IC9" gate="A" pin="4Q"/>
-<wire x1="-60.96" y1="-68.58" x2="-60.96" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-78.74" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="-78.74" x2="0" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="0" y1="-78.74" x2="35.56" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-78.74" x2="73.66" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-78.74" x2="73.66" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="4Q"/>
-<wire x1="35.56" y1="-68.58" x2="35.56" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="35.56" y="-78.74"/>
-<pinref part="IC10" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="-68.58" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-78.74"/>
-<pinref part="IC16" gate="A" pin="4D"/>
-<wire x1="73.66" y1="-78.74" x2="73.66" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="73.66" y="-78.74"/>
-<pinref part="IC15" gate="A" pin="4D"/>
-<wire x1="35.56" y1="-111.76" x2="35.56" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="4D"/>
-<wire x1="-22.86" y1="-111.76" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="4D"/>
-<wire x1="-60.96" y1="-78.74" x2="-60.96" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="-60.96" y="-78.74"/>
-<junction x="0" y="-78.74"/>
-<pinref part="IC16" gate="A" pin="4Q"/>
-<wire x1="73.66" y1="-147.32" x2="73.66" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="4Q"/>
-<wire x1="35.56" y1="-137.16" x2="35.56" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-147.32" x2="73.66" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="35.56" y="-147.32"/>
-<pinref part="IC14" gate="A" pin="4Q"/>
-<wire x1="-22.86" y1="-147.32" x2="-22.86" y2="-137.16" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-147.32"/>
-<wire x1="-22.86" y1="-147.32" x2="0" y2="-147.32" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="4Q"/>
-<wire x1="0" y1="-147.32" x2="35.56" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-137.16" x2="-60.96" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-147.32" x2="-22.86" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="0" y1="-78.74" x2="0" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="0" y="-147.32"/>
-<wire x1="0" y1="-10.16" x2="0" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="0" y1="-147.32" x2="0" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="1Q"/>
-<wire x1="-53.34" y1="-68.58" x2="-53.34" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-71.12" x2="-15.24" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="1Q"/>
-<wire x1="-15.24" y1="-71.12" x2="-15.24" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-71.12" x2="-7.62" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-15.24" y="-71.12"/>
-<pinref part="IC11" gate="A" pin="1Q"/>
-<wire x1="-7.62" y1="-71.12" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-71.12" x2="43.18" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-71.12" x2="81.28" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="43.18" y="-71.12"/>
-<pinref part="IC12" gate="A" pin="1Q"/>
-<wire x1="81.28" y1="-71.12" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC16" gate="A" pin="1D"/>
-<wire x1="81.28" y1="-111.76" x2="81.28" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="81.28" y="-71.12"/>
-<pinref part="IC15" gate="A" pin="1D"/>
-<wire x1="43.18" y1="-111.76" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="1D"/>
-<wire x1="-15.24" y1="-111.76" x2="-15.24" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="1D"/>
-<wire x1="-53.34" y1="-111.76" x2="-53.34" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-71.12"/>
-<junction x="-7.62" y="-71.12"/>
-<pinref part="IC16" gate="A" pin="1Q"/>
-<wire x1="81.28" y1="-139.7" x2="81.28" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="1Q"/>
-<wire x1="43.18" y1="-137.16" x2="43.18" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-139.7" x2="81.28" y2="-139.7" width="0.1524" layer="91"/>
-<junction x="43.18" y="-139.7"/>
-<pinref part="IC14" gate="A" pin="1Q"/>
-<wire x1="-15.24" y1="-139.7" x2="-15.24" y2="-137.16" width="0.1524" layer="91"/>
-<junction x="-15.24" y="-139.7"/>
-<wire x1="-15.24" y1="-139.7" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="1Q"/>
-<wire x1="-7.62" y1="-139.7" x2="43.18" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-137.16" x2="-53.34" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-139.7" x2="-15.24" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-139.7"/>
-<pinref part="IC1" gate="A" pin="8D"/>
-<wire x1="-71.12" y1="93.98" x2="-71.12" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="8D"/>
-<wire x1="-71.12" y1="134.62" x2="-33.02" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="134.62" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="8D"/>
-<wire x1="25.4" y1="93.98" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="8D"/>
-<wire x1="25.4" y1="134.62" x2="63.5" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="134.62" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="134.62" x2="-7.62" y2="134.62" width="0.1524" layer="91"/>
-<junction x="-33.02" y="134.62"/>
-<junction x="25.4" y="134.62"/>
-<wire x1="-7.62" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="134.62" x2="-7.62" y2="157.48" width="0.1524" layer="91"/>
-<junction x="-7.62" y="134.62"/>
-<pinref part="IC1" gate="A" pin="1Q"/>
-<wire x1="-53.34" y1="68.58" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="66.04" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="1Q"/>
-<wire x1="-15.24" y1="66.04" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="66.04" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-15.24" y="66.04"/>
-<pinref part="IC5" gate="A" pin="1Q"/>
-<wire x1="-7.62" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="66.04" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<junction x="43.18" y="66.04"/>
-<pinref part="IC6" gate="A" pin="1Q"/>
-<wire x1="81.28" y1="66.04" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="1D"/>
-<wire x1="81.28" y1="25.4" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<junction x="81.28" y="66.04"/>
-<pinref part="IC7" gate="A" pin="1D"/>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="1D"/>
-<wire x1="-15.24" y1="25.4" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="1D"/>
-<wire x1="-53.34" y1="25.4" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-53.34" y="66.04"/>
-<wire x1="-7.62" y1="134.62" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-7.62" y="66.04"/>
-<pinref part="IC8" gate="A" pin="1Q"/>
-<wire x1="81.28" y1="-2.54" x2="81.28" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="1Q"/>
-<wire x1="43.18" y1="0" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="43.18" y="-2.54"/>
-<pinref part="IC4" gate="A" pin="1Q"/>
-<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="0" width="0.1524" layer="91"/>
-<junction x="-15.24" y="-2.54"/>
-<wire x1="-15.24" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="1Q"/>
-<wire x1="-7.62" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="0" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-2.54" x2="-15.24" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="66.04" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-2.54"/>
-<pinref part="IC12" gate="A" pin="1D"/>
-<wire x1="81.28" y1="-2.54" x2="81.28" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="81.28" y="-2.54"/>
-<pinref part="IC11" gate="A" pin="1D"/>
-<wire x1="43.18" y1="-2.54" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="1D"/>
-<wire x1="-15.24" y1="-43.18" x2="-15.24" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="1D"/>
-<wire x1="-53.34" y1="-43.18" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-2.54"/>
-<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-139.7" x2="-7.62" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="3Q"/>
-<wire x1="-58.42" y1="-68.58" x2="-58.42" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-76.2" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="-76.2" x2="-2.54" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-76.2" x2="76.2" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-76.2" x2="76.2" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="3Q"/>
-<wire x1="38.1" y1="-68.58" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="38.1" y="-76.2"/>
-<pinref part="IC10" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="-68.58" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-76.2"/>
-<pinref part="IC16" gate="A" pin="3D"/>
-<wire x1="76.2" y1="-76.2" x2="76.2" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="76.2" y="-76.2"/>
-<pinref part="IC15" gate="A" pin="3D"/>
-<wire x1="38.1" y1="-111.76" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="3D"/>
-<wire x1="-20.32" y1="-111.76" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="3D"/>
-<wire x1="-58.42" y1="-111.76" x2="-58.42" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-58.42" y="-76.2"/>
-<junction x="-2.54" y="-76.2"/>
-<pinref part="IC14" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="-144.78" x2="-20.32" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC16" gate="A" pin="3Q"/>
-<wire x1="76.2" y1="-144.78" x2="76.2" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="3Q"/>
-<wire x1="38.1" y1="-137.16" x2="38.1" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-144.78" x2="76.2" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="38.1" y="-144.78"/>
-<wire x1="38.1" y1="-144.78" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-144.78"/>
-<pinref part="IC13" gate="A" pin="3Q"/>
-<wire x1="-2.54" y1="-144.78" x2="-20.32" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-137.16" x2="-58.42" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-144.78" x2="-20.32" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-76.2" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-144.78"/>
-<pinref part="IC1" gate="A" pin="6D"/>
-<wire x1="-66.04" y1="93.98" x2="-66.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="6D"/>
-<wire x1="-66.04" y1="129.54" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="129.54" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="6D"/>
-<wire x1="30.48" y1="93.98" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="6D"/>
-<wire x1="30.48" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="129.54" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="129.54" x2="-2.54" y2="129.54" width="0.1524" layer="91"/>
-<junction x="-27.94" y="129.54"/>
-<junction x="30.48" y="129.54"/>
-<wire x1="-2.54" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="129.54" x2="-2.54" y2="157.48" width="0.1524" layer="91"/>
-<junction x="-2.54" y="129.54"/>
-<pinref part="IC1" gate="A" pin="3Q"/>
-<wire x1="-58.42" y1="68.58" x2="-58.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="60.96" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="60.96" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="60.96" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="3Q"/>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<junction x="38.1" y="60.96"/>
-<pinref part="IC2" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="68.58" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-20.32" y="60.96"/>
-<pinref part="IC8" gate="A" pin="3D"/>
-<wire x1="76.2" y1="60.96" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
-<junction x="76.2" y="60.96"/>
-<pinref part="IC7" gate="A" pin="3D"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="3D"/>
-<wire x1="-20.32" y1="25.4" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="3D"/>
-<wire x1="-58.42" y1="25.4" x2="-58.42" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-58.42" y="60.96"/>
-<wire x1="-2.54" y1="129.54" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-2.54" y="60.96"/>
-<pinref part="IC4" gate="A" pin="3Q"/>
-<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="3Q"/>
-<wire x1="76.2" y1="-7.62" x2="76.2" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="3Q"/>
-<wire x1="38.1" y1="0" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-7.62" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="38.1" y="-7.62"/>
-<wire x1="38.1" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-7.62"/>
-<pinref part="IC3" gate="A" pin="3Q"/>
-<wire x1="-2.54" y1="-7.62" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="0" x2="-58.42" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-7.62" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="60.96" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-7.62"/>
-<pinref part="IC12" gate="A" pin="3D"/>
-<wire x1="76.2" y1="-43.18" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="76.2" y="-7.62"/>
-<pinref part="IC11" gate="A" pin="3D"/>
-<wire x1="38.1" y1="-43.18" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="3D"/>
-<wire x1="-20.32" y1="-43.18" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="3D"/>
-<wire x1="-58.42" y1="-7.62" x2="-58.42" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-58.42" y="-7.62"/>
-<wire x1="-2.54" y1="-76.2" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-144.78" x2="-2.54" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="5Q"/>
-<wire x1="-63.5" y1="-68.58" x2="-63.5" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-81.28" x2="-25.4" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="-81.28" x2="2.54" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-81.28" x2="33.02" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-81.28" x2="71.12" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="5Q"/>
-<wire x1="33.02" y1="-68.58" x2="33.02" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="33.02" y="-81.28"/>
-<pinref part="IC10" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="-68.58" x2="-25.4" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-81.28"/>
-<pinref part="IC16" gate="A" pin="5D"/>
-<wire x1="71.12" y1="-111.76" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="71.12" y="-81.28"/>
-<pinref part="IC15" gate="A" pin="5D"/>
-<wire x1="33.02" y1="-111.76" x2="33.02" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="5D"/>
-<wire x1="-25.4" y1="-111.76" x2="-25.4" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="5D"/>
-<wire x1="-63.5" y1="-111.76" x2="-63.5" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="-63.5" y="-81.28"/>
-<junction x="2.54" y="-81.28"/>
-<pinref part="IC14" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="-149.86" x2="-25.4" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC16" gate="A" pin="5Q"/>
-<wire x1="71.12" y1="-149.86" x2="71.12" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="5Q"/>
-<wire x1="33.02" y1="-137.16" x2="33.02" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-149.86" x2="71.12" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="33.02" y="-149.86"/>
-<wire x1="33.02" y1="-149.86" x2="2.54" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-149.86"/>
-<pinref part="IC13" gate="A" pin="5Q"/>
-<wire x1="2.54" y1="-149.86" x2="-25.4" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-137.16" x2="-63.5" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-149.86" x2="-25.4" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-81.28" x2="2.54" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="2.54" y="-149.86"/>
-<pinref part="IC1" gate="A" pin="4D"/>
-<wire x1="-60.96" y1="93.98" x2="-60.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="4D"/>
-<wire x1="-60.96" y1="124.46" x2="-22.86" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="124.46" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="4D"/>
-<wire x1="35.56" y1="93.98" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="4D"/>
-<wire x1="35.56" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="124.46" x2="2.54" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-22.86" y="124.46"/>
-<junction x="35.56" y="124.46"/>
-<wire x1="2.54" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="124.46" x2="2.54" y2="157.48" width="0.1524" layer="91"/>
-<junction x="2.54" y="124.46"/>
-<pinref part="IC1" gate="A" pin="5Q"/>
-<wire x1="-63.5" y1="68.58" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="55.88" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="55.88" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="5Q"/>
-<wire x1="33.02" y1="68.58" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-<junction x="33.02" y="55.88"/>
-<pinref part="IC2" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="68.58" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-25.4" y="55.88"/>
-<pinref part="IC8" gate="A" pin="5D"/>
-<wire x1="71.12" y1="25.4" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<junction x="71.12" y="55.88"/>
-<pinref part="IC7" gate="A" pin="5D"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="5D"/>
-<wire x1="-25.4" y1="25.4" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="5D"/>
-<wire x1="-63.5" y1="25.4" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-63.5" y="55.88"/>
-<wire x1="2.54" y1="124.46" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<junction x="2.54" y="55.88"/>
-<pinref part="IC4" gate="A" pin="5Q"/>
-<wire x1="-25.4" y1="-12.7" x2="-25.4" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="5Q"/>
-<wire x1="71.12" y1="-12.7" x2="71.12" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="5Q"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-12.7" x2="71.12" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="33.02" y="-12.7"/>
-<wire x1="33.02" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-12.7"/>
-<pinref part="IC3" gate="A" pin="5Q"/>
-<wire x1="2.54" y1="-12.7" x2="-25.4" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="0" x2="-63.5" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-12.7" x2="-25.4" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="55.88" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="2.54" y="-12.7"/>
-<pinref part="IC12" gate="A" pin="5D"/>
-<wire x1="71.12" y1="-43.18" x2="71.12" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="71.12" y="-12.7"/>
-<pinref part="IC11" gate="A" pin="5D"/>
-<wire x1="33.02" y1="-43.18" x2="33.02" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="5D"/>
-<wire x1="-25.4" y1="-43.18" x2="-25.4" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="5D"/>
-<wire x1="-63.5" y1="-43.18" x2="-63.5" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-63.5" y="-12.7"/>
-<wire x1="2.54" y1="-81.28" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-149.86" x2="2.54" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="6Q"/>
-<wire x1="-66.04" y1="-68.58" x2="-66.04" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-83.82" x2="-27.94" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="-83.82" x2="5.08" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-83.82" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-83.82" x2="68.58" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-83.82" x2="68.58" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="-68.58" x2="-27.94" y2="-83.82" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-83.82"/>
-<pinref part="IC11" gate="A" pin="6Q"/>
-<wire x1="30.48" y1="-68.58" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
-<junction x="30.48" y="-83.82"/>
-<pinref part="IC16" gate="A" pin="6D"/>
-<wire x1="68.58" y1="-83.82" x2="68.58" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="68.58" y="-83.82"/>
-<pinref part="IC15" gate="A" pin="6D"/>
-<wire x1="30.48" y1="-111.76" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="6D"/>
-<wire x1="-27.94" y1="-111.76" x2="-27.94" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="6D"/>
-<wire x1="-66.04" y1="-83.82" x2="-66.04" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="-66.04" y="-83.82"/>
-<junction x="5.08" y="-83.82"/>
-<pinref part="IC16" gate="A" pin="6Q"/>
-<wire x1="68.58" y1="-152.4" x2="68.58" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="6Q"/>
-<wire x1="30.48" y1="-137.16" x2="30.48" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-152.4" x2="68.58" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="30.48" y="-152.4"/>
-<pinref part="IC14" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="-152.4" x2="-27.94" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-152.4" x2="5.08" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-152.4"/>
-<pinref part="IC13" gate="A" pin="6Q"/>
-<wire x1="5.08" y1="-152.4" x2="30.48" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-137.16" x2="-66.04" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-152.4" x2="-27.94" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-83.82" x2="5.08" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="5.08" y="-152.4"/>
-<pinref part="IC1" gate="A" pin="3D"/>
-<wire x1="-58.42" y1="93.98" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="3D"/>
-<wire x1="-58.42" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="121.92" x2="-20.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="3D"/>
-<wire x1="38.1" y1="93.98" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="3D"/>
-<wire x1="38.1" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="121.92" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="121.92" x2="5.08" y2="121.92" width="0.1524" layer="91"/>
-<junction x="-20.32" y="121.92"/>
-<junction x="38.1" y="121.92"/>
-<wire x1="5.08" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="121.92" x2="5.08" y2="157.48" width="0.1524" layer="91"/>
-<junction x="5.08" y="121.92"/>
-<pinref part="IC1" gate="A" pin="6Q"/>
-<wire x1="-66.04" y1="68.58" x2="-66.04" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="53.34" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="68.58" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
-<junction x="-27.94" y="53.34"/>
-<pinref part="IC5" gate="A" pin="6Q"/>
-<wire x1="30.48" y1="68.58" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<junction x="30.48" y="53.34"/>
-<pinref part="IC8" gate="A" pin="6D"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
-<junction x="68.58" y="53.34"/>
-<pinref part="IC7" gate="A" pin="6D"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="6D"/>
-<wire x1="-27.94" y1="25.4" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="6D"/>
-<wire x1="-66.04" y1="53.34" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-66.04" y="53.34"/>
-<wire x1="5.08" y1="121.92" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<junction x="5.08" y="53.34"/>
-<pinref part="IC8" gate="A" pin="6Q"/>
-<wire x1="68.58" y1="-15.24" x2="68.58" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="6Q"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="30.48" y="-15.24"/>
-<pinref part="IC4" gate="A" pin="6Q"/>
-<wire x1="-27.94" y1="-15.24" x2="-27.94" y2="0" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-15.24" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-15.24"/>
-<pinref part="IC3" gate="A" pin="6Q"/>
-<wire x1="5.08" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="0" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-15.24" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="5.08" y="-15.24"/>
-<pinref part="IC12" gate="A" pin="6D"/>
-<wire x1="68.58" y1="-43.18" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="68.58" y="-15.24"/>
-<pinref part="IC11" gate="A" pin="6D"/>
-<wire x1="30.48" y1="-43.18" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="6D"/>
-<wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="6D"/>
-<wire x1="-66.04" y1="-43.18" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-66.04" y="-15.24"/>
-<wire x1="5.08" y1="-83.82" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-152.4" x2="5.08" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="7Q"/>
-<wire x1="-68.58" y1="-68.58" x2="-68.58" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-86.36" x2="-30.48" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="-86.36" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-86.36" x2="27.94" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-86.36" x2="66.04" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-86.36" x2="66.04" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="7Q"/>
-<wire x1="27.94" y1="-68.58" x2="27.94" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="27.94" y="-86.36"/>
-<pinref part="IC10" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="-68.58" x2="-30.48" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-86.36"/>
-<pinref part="IC16" gate="A" pin="7D"/>
-<wire x1="66.04" y1="-111.76" x2="66.04" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="66.04" y="-86.36"/>
-<pinref part="IC15" gate="A" pin="7D"/>
-<wire x1="27.94" y1="-111.76" x2="27.94" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="7D"/>
-<wire x1="-30.48" y1="-111.76" x2="-30.48" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="7D"/>
-<wire x1="-68.58" y1="-111.76" x2="-68.58" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="-68.58" y="-86.36"/>
-<junction x="7.62" y="-86.36"/>
-<pinref part="IC14" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="-154.94" x2="-30.48" y2="-137.16" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-154.94"/>
-<pinref part="IC16" gate="A" pin="7Q"/>
-<wire x1="66.04" y1="-154.94" x2="66.04" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="IC15" gate="A" pin="7Q"/>
-<wire x1="27.94" y1="-137.16" x2="27.94" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-154.94" x2="66.04" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="27.94" y="-154.94"/>
-<wire x1="27.94" y1="-154.94" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="A" pin="7Q"/>
-<wire x1="7.62" y1="-154.94" x2="-30.48" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-137.16" x2="-68.58" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-154.94" x2="-30.48" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-86.36" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="7.62" y="-154.94"/>
-<pinref part="IC5" gate="A" pin="2D"/>
-<wire x1="40.64" y1="93.98" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="2D"/>
-<wire x1="40.64" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="119.38" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="2D"/>
-<wire x1="-55.88" y1="93.98" x2="-55.88" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="2D"/>
-<wire x1="-55.88" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="119.38" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
-<junction x="40.64" y="119.38"/>
-<junction x="-17.78" y="119.38"/>
-<wire x1="7.62" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="119.38" x2="7.62" y2="157.48" width="0.1524" layer="91"/>
-<junction x="7.62" y="119.38"/>
-<pinref part="IC1" gate="A" pin="7Q"/>
-<wire x1="-68.58" y1="68.58" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="50.8" x2="-30.48" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="50.8" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="7Q"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<junction x="27.94" y="50.8"/>
-<pinref part="IC2" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="68.58" x2="-30.48" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-30.48" y="50.8"/>
-<pinref part="IC8" gate="A" pin="7D"/>
-<wire x1="66.04" y1="25.4" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<junction x="66.04" y="50.8"/>
-<pinref part="IC7" gate="A" pin="7D"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="7D"/>
-<wire x1="-30.48" y1="25.4" x2="-30.48" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="7D"/>
-<wire x1="-68.58" y1="25.4" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-68.58" y="50.8"/>
-<wire x1="7.62" y1="119.38" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<junction x="7.62" y="50.8"/>
-<pinref part="IC4" gate="A" pin="7Q"/>
-<wire x1="-30.48" y1="-17.78" x2="-30.48" y2="0" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-17.78"/>
-<pinref part="IC8" gate="A" pin="7Q"/>
-<wire x1="66.04" y1="-17.78" x2="66.04" y2="0" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="7Q"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-17.78" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="27.94" y="-17.78"/>
-<wire x1="27.94" y1="-17.78" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="7Q"/>
-<wire x1="7.62" y1="-17.78" x2="-30.48" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="0" x2="-68.58" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-17.78" x2="-30.48" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="50.8" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="7.62" y="-17.78"/>
-<pinref part="IC12" gate="A" pin="7D"/>
-<wire x1="66.04" y1="-43.18" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="66.04" y="-17.78"/>
-<pinref part="IC11" gate="A" pin="7D"/>
-<wire x1="27.94" y1="-43.18" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="7D"/>
-<wire x1="-30.48" y1="-43.18" x2="-30.48" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="7D"/>
-<wire x1="-68.58" y1="-43.18" x2="-68.58" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-68.58" y="-17.78"/>
-<wire x1="7.62" y1="-86.36" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-154.94" x2="7.62" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="IC16" gate="A" pin="C"/>
@@ -2353,6 +1433,926 @@ WRITE</text>
 <wire x1="-185.42" y1="-68.58" x2="-210.82" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="-68.58" x2="-210.82" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-210.82" y="60.96"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="6Q"/>
+<pinref part="IC9" gate="A" pin="6D"/>
+<wire x1="-66.04" y1="-43.18" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="6Q"/>
+<pinref part="IC12" gate="A" pin="6D"/>
+<wire x1="-66.04" y1="-7.62" x2="-66.04" y2="0" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-43.18" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="6Q"/>
+<pinref part="IC11" gate="A" pin="6D"/>
+<wire x1="68.58" y1="-7.62" x2="68.58" y2="0" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-43.18" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-7.62" x2="30.48" y2="0" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-7.62" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="68.58" y="-7.62"/>
+<junction x="30.48" y="-7.62"/>
+<pinref part="IC1" gate="A" pin="6D"/>
+<wire x1="-66.04" y1="93.98" x2="-66.04" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="6D"/>
+<wire x1="-66.04" y1="129.54" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="129.54" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="6D"/>
+<wire x1="30.48" y1="93.98" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="6D"/>
+<wire x1="30.48" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="129.54" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="129.54" x2="-2.54" y2="129.54" width="0.1524" layer="91"/>
+<junction x="-27.94" y="129.54"/>
+<junction x="30.48" y="129.54"/>
+<wire x1="-2.54" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="129.54" x2="-2.54" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-2.54" y="129.54"/>
+<wire x1="-2.54" y1="129.54" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-182.88" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="6Q"/>
+<pinref part="IC7" gate="A" pin="6D"/>
+<wire x1="-2.54" y1="-144.78" x2="-2.54" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-76.2" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-2.54" y="60.96"/>
+<junction x="30.48" y="60.96"/>
+<pinref part="IC8" gate="A" pin="6D"/>
+<pinref part="IC6" gate="A" pin="6Q"/>
+<wire x1="68.58" y1="68.58" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="60.96" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<junction x="68.58" y="60.96"/>
+<pinref part="IC2" gate="A" pin="6Q"/>
+<pinref part="IC4" gate="A" pin="6D"/>
+<wire x1="-27.94" y1="25.4" x2="-27.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="60.96" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="60.96" x2="-27.94" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-27.94" y="60.96"/>
+<pinref part="IC3" gate="A" pin="6D"/>
+<pinref part="IC1" gate="A" pin="6Q"/>
+<wire x1="-66.04" y1="68.58" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="60.96" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="60.96" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-66.04" y="60.96"/>
+<wire x1="30.48" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-7.62"/>
+<pinref part="IC4" gate="A" pin="6Q"/>
+<pinref part="IC10" gate="A" pin="6D"/>
+<wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-7.62" x2="-27.94" y2="0" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-7.62" x2="-27.94" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-7.62"/>
+<wire x1="-66.04" y1="-7.62" x2="-27.94" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-66.04" y="-7.62"/>
+<pinref part="IC11" gate="A" pin="6Q"/>
+<pinref part="IC15" gate="A" pin="6D"/>
+<wire x1="30.48" y1="-111.76" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="IC16" gate="A" pin="6D"/>
+<pinref part="IC12" gate="A" pin="6Q"/>
+<wire x1="30.48" y1="-76.2" x2="30.48" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-68.58" x2="68.58" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-76.2" x2="68.58" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-76.2" x2="68.58" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="30.48" y="-76.2"/>
+<junction x="68.58" y="-76.2"/>
+<wire x1="-2.54" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-76.2"/>
+<pinref part="IC14" gate="A" pin="6D"/>
+<wire x1="-27.94" y1="-111.76" x2="-27.94" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="6Q"/>
+<wire x1="-27.94" y1="-76.2" x2="-27.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-76.2" x2="-27.94" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-76.2"/>
+<pinref part="IC13" gate="A" pin="6D"/>
+<pinref part="IC9" gate="A" pin="6Q"/>
+<wire x1="-66.04" y1="-68.58" x2="-66.04" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-76.2" x2="-66.04" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-76.2" x2="-66.04" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-66.04" y="-76.2"/>
+<pinref part="IC16" gate="A" pin="6Q"/>
+<wire x1="68.58" y1="-137.16" x2="68.58" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-144.78" x2="30.48" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="6Q"/>
+<wire x1="30.48" y1="-144.78" x2="30.48" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-144.78" x2="30.48" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-144.78"/>
+<junction x="30.48" y="-144.78"/>
+<pinref part="IC14" gate="A" pin="6Q"/>
+<wire x1="-27.94" y1="-137.16" x2="-27.94" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-144.78" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="6Q"/>
+<wire x1="-66.04" y1="-137.16" x2="-66.04" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-144.78" x2="-27.94" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-144.78"/>
+</segment>
+</net>
+<net name="N$98" class="0">
+<segment>
+<pinref part="IC9" gate="A" pin="1Q"/>
+<pinref part="IC13" gate="A" pin="1D"/>
+<wire x1="-53.34" y1="-111.76" x2="-53.34" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="1Q"/>
+<pinref part="IC14" gate="A" pin="1D"/>
+<wire x1="-53.34" y1="-88.9" x2="-53.34" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-111.76" x2="-15.24" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="1Q"/>
+<pinref part="IC15" gate="A" pin="1D"/>
+<wire x1="-15.24" y1="-88.9" x2="-15.24" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-111.76" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="A" pin="1Q"/>
+<pinref part="IC16" gate="A" pin="1D"/>
+<wire x1="43.18" y1="-88.9" x2="43.18" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-111.76" x2="81.28" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-88.9" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-88.9" x2="81.28" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="43.18" y="-88.9"/>
+<junction x="81.28" y="-88.9"/>
+<pinref part="IC4" gate="A" pin="1Q"/>
+<pinref part="IC10" gate="A" pin="1D"/>
+<wire x1="-15.24" y1="-43.18" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="1Q"/>
+<pinref part="IC3" gate="A" pin="1D"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="0" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="25.4" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="1Q"/>
+<pinref part="IC4" gate="A" pin="1D"/>
+<wire x1="-53.34" y1="48.26" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="1D"/>
+<wire x1="-15.24" y1="48.26" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="93.98" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="1D"/>
+<wire x1="-15.24" y1="116.84" x2="-53.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="116.84" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="1D"/>
+<wire x1="81.28" y1="93.98" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="1D"/>
+<wire x1="81.28" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="116.84" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-15.24" y="116.84"/>
+<junction x="43.18" y="116.84"/>
+<wire x1="10.16" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="116.84" x2="10.16" y2="157.48" width="0.1524" layer="91"/>
+<junction x="10.16" y="116.84"/>
+<wire x1="10.16" y1="116.84" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="48.26" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="1Q"/>
+<pinref part="IC7" gate="A" pin="1D"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-88.9" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-157.48" x2="10.16" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="25.4" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="48.26" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<junction x="10.16" y="48.26"/>
+<junction x="43.18" y="48.26"/>
+<pinref part="IC6" gate="A" pin="1Q"/>
+<pinref part="IC8" gate="A" pin="1D"/>
+<wire x1="81.28" y1="25.4" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<junction x="81.28" y="48.26"/>
+<wire x1="-15.24" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-15.24" y="48.26"/>
+<wire x1="-53.34" y1="48.26" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-53.34" y="48.26"/>
+<pinref part="IC11" gate="A" pin="1D"/>
+<pinref part="IC7" gate="A" pin="1Q"/>
+<wire x1="43.18" y1="0" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="A" pin="1D"/>
+<pinref part="IC8" gate="A" pin="1Q"/>
+<wire x1="43.18" y1="-20.32" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="0" x2="81.28" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-20.32" x2="81.28" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-20.32" x2="81.28" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="43.18" y="-20.32"/>
+<junction x="81.28" y="-20.32"/>
+<wire x1="10.16" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="10.16" y="-20.32"/>
+<wire x1="-15.24" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-20.32"/>
+<pinref part="IC3" gate="A" pin="1Q"/>
+<pinref part="IC9" gate="A" pin="1D"/>
+<wire x1="-53.34" y1="-43.18" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-20.32" x2="-53.34" y2="0" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-53.34" y="-20.32"/>
+<wire x1="43.18" y1="-88.9" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="10.16" y="-88.9"/>
+<wire x1="-15.24" y1="-88.9" x2="10.16" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-88.9"/>
+<wire x1="-53.34" y1="-88.9" x2="-15.24" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="-53.34" y="-88.9"/>
+<pinref part="IC16" gate="A" pin="1Q"/>
+<wire x1="81.28" y1="-137.16" x2="81.28" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-157.48" x2="43.18" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="10.16" y="-157.48"/>
+<pinref part="IC15" gate="A" pin="1Q"/>
+<wire x1="43.18" y1="-157.48" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-137.16" x2="43.18" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="43.18" y="-157.48"/>
+<pinref part="IC14" gate="A" pin="1Q"/>
+<wire x1="-15.24" y1="-137.16" x2="-15.24" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-157.48" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="1Q"/>
+<wire x1="-53.34" y1="-137.16" x2="-53.34" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-157.48" x2="-15.24" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-157.48"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="IC9" gate="A" pin="3Q"/>
+<pinref part="IC13" gate="A" pin="3D"/>
+<wire x1="-58.42" y1="-111.76" x2="-58.42" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="A" pin="3D"/>
+<wire x1="-58.42" y1="-83.82" x2="-58.42" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-111.76" x2="-20.32" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="3Q"/>
+<pinref part="IC16" gate="A" pin="3D"/>
+<pinref part="IC12" gate="A" pin="3Q"/>
+<wire x1="-20.32" y1="-83.82" x2="-20.32" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-68.58" x2="76.2" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="3Q"/>
+<pinref part="IC15" gate="A" pin="3D"/>
+<wire x1="76.2" y1="-83.82" x2="76.2" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-111.76" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-83.82" x2="38.1" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-83.82" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="76.2" y="-83.82"/>
+<junction x="38.1" y="-83.82"/>
+<pinref part="IC4" gate="A" pin="3Q"/>
+<pinref part="IC10" gate="A" pin="3D"/>
+<wire x1="-20.32" y1="-43.18" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="3Q"/>
+<pinref part="IC3" gate="A" pin="3D"/>
+<wire x1="-20.32" y1="-15.24" x2="-20.32" y2="0" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="25.4" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="3Q"/>
+<pinref part="IC4" gate="A" pin="3D"/>
+<wire x1="-58.42" y1="53.34" x2="-58.42" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="25.4" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="3D"/>
+<pinref part="IC6" gate="A" pin="3Q"/>
+<wire x1="-20.32" y1="53.34" x2="-20.32" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="68.58" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="53.34" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="3D"/>
+<wire x1="-58.42" y1="93.98" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="3D"/>
+<wire x1="-58.42" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="121.92" x2="-20.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="3D"/>
+<wire x1="38.1" y1="93.98" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="3D"/>
+<wire x1="38.1" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="121.92" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="121.92" x2="5.08" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-20.32" y="121.92"/>
+<junction x="38.1" y="121.92"/>
+<wire x1="5.08" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="121.92" x2="5.08" y2="157.48" width="0.1524" layer="91"/>
+<junction x="5.08" y="121.92"/>
+<wire x1="5.08" y1="121.92" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-182.88" x2="5.08" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="3Q"/>
+<pinref part="IC7" gate="A" pin="3D"/>
+<wire x1="5.08" y1="-152.4" x2="5.08" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-83.82" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<junction x="5.08" y="53.34"/>
+<junction x="38.1" y="53.34"/>
+<wire x1="76.2" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<junction x="76.2" y="53.34"/>
+<wire x1="-20.32" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-20.32" y="53.34"/>
+<wire x1="-58.42" y1="53.34" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-58.42" y="53.34"/>
+<pinref part="IC7" gate="A" pin="3Q"/>
+<pinref part="IC11" gate="A" pin="3D"/>
+<wire x1="38.1" y1="-43.18" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="3Q"/>
+<pinref part="IC12" gate="A" pin="3D"/>
+<wire x1="38.1" y1="-15.24" x2="38.1" y2="0" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-43.18" x2="76.2" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-15.24" x2="76.2" y2="0" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-15.24" x2="76.2" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="38.1" y="-15.24"/>
+<junction x="76.2" y="-15.24"/>
+<wire x1="5.08" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="5.08" y="-15.24"/>
+<wire x1="-20.32" y1="-15.24" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-15.24"/>
+<pinref part="IC9" gate="A" pin="3D"/>
+<pinref part="IC3" gate="A" pin="3Q"/>
+<wire x1="-58.42" y1="0" x2="-58.42" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-15.24" x2="-58.42" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-15.24" x2="-58.42" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-15.24"/>
+<wire x1="38.1" y1="-83.82" x2="5.08" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="5.08" y="-83.82"/>
+<wire x1="-20.32" y1="-83.82" x2="5.08" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-83.82"/>
+<wire x1="-58.42" y1="-83.82" x2="-20.32" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-83.82"/>
+<pinref part="IC16" gate="A" pin="3Q"/>
+<wire x1="76.2" y1="-137.16" x2="76.2" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-152.4" x2="38.1" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="3Q"/>
+<wire x1="38.1" y1="-152.4" x2="38.1" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-152.4" x2="38.1" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="5.08" y="-152.4"/>
+<junction x="38.1" y="-152.4"/>
+<pinref part="IC14" gate="A" pin="3Q"/>
+<wire x1="-20.32" y1="-137.16" x2="-20.32" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-152.4" x2="5.08" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="3Q"/>
+<wire x1="-58.42" y1="-137.16" x2="-58.42" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-152.4" x2="-20.32" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-152.4"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<pinref part="IC9" gate="A" pin="5Q"/>
+<pinref part="IC13" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="-111.76" x2="-63.5" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="-78.74" x2="-63.5" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-111.76" x2="-25.4" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="5Q"/>
+<pinref part="IC12" gate="A" pin="5Q"/>
+<pinref part="IC16" gate="A" pin="5D"/>
+<wire x1="-25.4" y1="-78.74" x2="-25.4" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-111.76" x2="71.12" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="5Q"/>
+<pinref part="IC15" gate="A" pin="5D"/>
+<wire x1="71.12" y1="-78.74" x2="71.12" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-111.76" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-78.74" x2="33.02" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-78.74" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="71.12" y="-78.74"/>
+<junction x="33.02" y="-78.74"/>
+<pinref part="IC4" gate="A" pin="5Q"/>
+<pinref part="IC10" gate="A" pin="5D"/>
+<wire x1="-25.4" y1="-43.18" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="5Q"/>
+<pinref part="IC3" gate="A" pin="5D"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="0" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="25.4" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="5Q"/>
+<pinref part="IC4" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="58.42" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="25.4" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="5Q"/>
+<pinref part="IC8" gate="A" pin="5D"/>
+<wire x1="-25.4" y1="58.42" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="25.4" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="5D"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="93.98" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="5D"/>
+<wire x1="33.02" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="127" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="93.98" x2="-63.5" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="127" x2="-25.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="127" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="127" x2="0" y2="127" width="0.1524" layer="91"/>
+<junction x="33.02" y="127"/>
+<junction x="-25.4" y="127"/>
+<wire x1="0" y1="127" x2="-25.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="0" y1="127" x2="0" y2="157.48" width="0.1524" layer="91"/>
+<junction x="0" y="127"/>
+<wire x1="0" y1="127" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="58.42" x2="0" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="5Q"/>
+<pinref part="IC7" gate="A" pin="5D"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="0" y1="-78.74" x2="0" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="0" y1="-147.32" x2="0" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="25.4" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="0" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<junction x="0" y="58.42"/>
+<junction x="33.02" y="58.42"/>
+<wire x1="71.12" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<junction x="71.12" y="58.42"/>
+<wire x1="-25.4" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-25.4" y="58.42"/>
+<wire x1="-63.5" y1="58.42" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-63.5" y="58.42"/>
+<pinref part="IC7" gate="A" pin="5Q"/>
+<pinref part="IC11" gate="A" pin="5D"/>
+<wire x1="33.02" y1="-43.18" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="5Q"/>
+<pinref part="IC12" gate="A" pin="5D"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-43.18" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-10.16" x2="71.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-10.16" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="33.02" y="-10.16"/>
+<junction x="71.12" y="-10.16"/>
+<wire x1="0" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="0" y="-10.16"/>
+<wire x1="-25.4" y1="-10.16" x2="0" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-10.16"/>
+<pinref part="IC3" gate="A" pin="5Q"/>
+<pinref part="IC9" gate="A" pin="5D"/>
+<wire x1="-63.5" y1="-43.18" x2="-63.5" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-10.16" x2="-63.5" y2="0" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-10.16" x2="-63.5" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-63.5" y="-10.16"/>
+<wire x1="33.02" y1="-78.74" x2="0" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="0" y="-78.74"/>
+<wire x1="-25.4" y1="-78.74" x2="0" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-78.74"/>
+<wire x1="-63.5" y1="-78.74" x2="-25.4" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-63.5" y="-78.74"/>
+<pinref part="IC16" gate="A" pin="5Q"/>
+<wire x1="71.12" y1="-137.16" x2="71.12" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-147.32" x2="33.02" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="5Q"/>
+<wire x1="33.02" y1="-147.32" x2="33.02" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="-147.32" x2="33.02" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="0" y="-147.32"/>
+<junction x="33.02" y="-147.32"/>
+<pinref part="IC14" gate="A" pin="5Q"/>
+<wire x1="-25.4" y1="-137.16" x2="-25.4" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-147.32" x2="0" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="5Q"/>
+<wire x1="-63.5" y1="-137.16" x2="-63.5" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-147.32" x2="-25.4" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-147.32"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="IC13" gate="A" pin="8Q"/>
+<wire x1="-71.12" y1="-137.16" x2="-71.12" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-139.7" x2="-33.02" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="A" pin="8Q"/>
+<wire x1="-33.02" y1="-139.7" x2="-33.02" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="8Q"/>
+<pinref part="IC12" gate="A" pin="8D"/>
+<wire x1="63.5" y1="-43.18" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="8D"/>
+<pinref part="IC7" gate="A" pin="8Q"/>
+<wire x1="63.5" y1="-2.54" x2="63.5" y2="0" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-2.54" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="63.5" y="-2.54"/>
+<junction x="25.4" y="-2.54"/>
+<pinref part="IC1" gate="A" pin="8D"/>
+<wire x1="-71.12" y1="93.98" x2="-71.12" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="8D"/>
+<wire x1="-71.12" y1="134.62" x2="-33.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="134.62" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="8D"/>
+<wire x1="25.4" y1="93.98" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="8D"/>
+<wire x1="25.4" y1="134.62" x2="63.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="134.62" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="134.62" x2="-7.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-33.02" y="134.62"/>
+<junction x="25.4" y="134.62"/>
+<wire x1="-7.62" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="134.62" x2="-7.62" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-7.62" y="134.62"/>
+<wire x1="-7.62" y1="134.62" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-182.88" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="8Q"/>
+<pinref part="IC7" gate="A" pin="8D"/>
+<wire x1="-7.62" y1="-139.7" x2="-7.62" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-7.62" y="66.04"/>
+<junction x="25.4" y="66.04"/>
+<pinref part="IC8" gate="A" pin="8D"/>
+<pinref part="IC6" gate="A" pin="8Q"/>
+<wire x1="63.5" y1="68.58" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="66.04" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<junction x="63.5" y="66.04"/>
+<pinref part="IC2" gate="A" pin="8Q"/>
+<pinref part="IC4" gate="A" pin="8D"/>
+<wire x1="-33.02" y1="25.4" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="66.04" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-33.02" y="66.04"/>
+<pinref part="IC3" gate="A" pin="8D"/>
+<wire x1="-71.12" y1="68.58" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="8Q"/>
+<wire x1="-71.12" y1="66.04" x2="-71.12" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="66.04" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-71.12" y="66.04"/>
+<wire x1="25.4" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-2.54"/>
+<pinref part="IC4" gate="A" pin="8Q"/>
+<pinref part="IC10" gate="A" pin="8D"/>
+<wire x1="-33.02" y1="-43.18" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-2.54"/>
+<pinref part="IC3" gate="A" pin="8Q"/>
+<pinref part="IC9" gate="A" pin="8D"/>
+<wire x1="-71.12" y1="-43.18" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-2.54" x2="-71.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-2.54" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-71.12" y="-2.54"/>
+<pinref part="IC15" gate="A" pin="8D"/>
+<wire x1="25.4" y1="-111.76" x2="25.4" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="8Q"/>
+<pinref part="IC16" gate="A" pin="8D"/>
+<pinref part="IC12" gate="A" pin="8Q"/>
+<wire x1="25.4" y1="-71.12" x2="25.4" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-68.58" x2="63.5" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-71.12" x2="63.5" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-71.12" x2="63.5" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="25.4" y="-71.12"/>
+<junction x="63.5" y="-71.12"/>
+<wire x1="-7.62" y1="-71.12" x2="25.4" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-71.12"/>
+<pinref part="IC14" gate="A" pin="8D"/>
+<wire x1="-33.02" y1="-111.76" x2="-33.02" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="8Q"/>
+<wire x1="-33.02" y1="-71.12" x2="-33.02" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-71.12" x2="-33.02" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-71.12"/>
+<pinref part="IC13" gate="A" pin="8D"/>
+<pinref part="IC9" gate="A" pin="8Q"/>
+<wire x1="-71.12" y1="-68.58" x2="-71.12" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-71.12" x2="-71.12" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-71.12" x2="-71.12" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="-71.12" y="-71.12"/>
+<wire x1="-33.02" y1="-139.7" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-139.7"/>
+<junction x="-7.62" y="-139.7"/>
+<pinref part="IC15" gate="A" pin="8Q"/>
+<wire x1="-7.62" y1="-139.7" x2="25.4" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-139.7" x2="25.4" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="IC16" gate="A" pin="8Q"/>
+<wire x1="25.4" y1="-139.7" x2="63.5" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-139.7" x2="63.5" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="25.4" y="-139.7"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC13" gate="A" pin="7Q"/>
+<wire x1="-68.58" y1="-137.16" x2="-68.58" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-142.24" x2="-30.48" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="A" pin="7Q"/>
+<wire x1="-30.48" y1="-142.24" x2="-30.48" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="A" pin="7Q"/>
+<pinref part="IC13" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="-111.76" x2="-68.58" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="-73.66" x2="-68.58" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-111.76" x2="-30.48" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="7Q"/>
+<pinref part="IC12" gate="A" pin="7Q"/>
+<pinref part="IC16" gate="A" pin="7D"/>
+<wire x1="-30.48" y1="-73.66" x2="-30.48" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-111.76" x2="66.04" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="7Q"/>
+<pinref part="IC15" gate="A" pin="7D"/>
+<wire x1="66.04" y1="-73.66" x2="66.04" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-111.76" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-73.66" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-73.66" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="66.04" y="-73.66"/>
+<junction x="27.94" y="-73.66"/>
+<pinref part="IC4" gate="A" pin="7Q"/>
+<pinref part="IC10" gate="A" pin="7D"/>
+<wire x1="-30.48" y1="-43.18" x2="-30.48" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="7D"/>
+<wire x1="-30.48" y1="-5.08" x2="-30.48" y2="0" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="25.4" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="7Q"/>
+<pinref part="IC2" gate="A" pin="7Q"/>
+<pinref part="IC4" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="63.5" x2="-68.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="25.4" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="7Q"/>
+<pinref part="IC8" gate="A" pin="7D"/>
+<wire x1="-30.48" y1="63.5" x2="-30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="7D"/>
+<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="93.98" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="7D"/>
+<wire x1="27.94" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="132.08" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="93.98" x2="-68.58" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="132.08" x2="-30.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="132.08" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="132.08" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
+<junction x="27.94" y="132.08"/>
+<junction x="-30.48" y="132.08"/>
+<wire x1="-5.08" y1="132.08" x2="-30.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="132.08" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-5.08" y="132.08"/>
+<wire x1="-5.08" y1="132.08" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="63.5" x2="-5.08" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="7Q"/>
+<pinref part="IC7" gate="A" pin="7D"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-73.66" x2="-5.08" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-142.24" x2="-5.08" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-5.08" y="63.5"/>
+<junction x="27.94" y="63.5"/>
+<wire x1="66.04" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<junction x="66.04" y="63.5"/>
+<wire x1="-30.48" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-30.48" y="63.5"/>
+<wire x1="-68.58" y1="63.5" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-68.58" y="63.5"/>
+<pinref part="IC7" gate="A" pin="7Q"/>
+<pinref part="IC11" gate="A" pin="7D"/>
+<wire x1="27.94" y1="-43.18" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="7Q"/>
+<pinref part="IC12" gate="A" pin="7D"/>
+<wire x1="27.94" y1="-5.08" x2="27.94" y2="0" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-43.18" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-5.08" x2="66.04" y2="0" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-5.08" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="27.94" y="-5.08"/>
+<junction x="66.04" y="-5.08"/>
+<wire x1="-5.08" y1="-5.08" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-5.08"/>
+<wire x1="-30.48" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-5.08"/>
+<pinref part="IC3" gate="A" pin="7Q"/>
+<pinref part="IC9" gate="A" pin="7D"/>
+<wire x1="-68.58" y1="-43.18" x2="-68.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-5.08" x2="-68.58" y2="0" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-5.08" x2="-68.58" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-5.08"/>
+<wire x1="27.94" y1="-73.66" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-73.66"/>
+<wire x1="-30.48" y1="-73.66" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-73.66"/>
+<wire x1="-68.58" y1="-73.66" x2="-30.48" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-73.66"/>
+<wire x1="-30.48" y1="-142.24" x2="-5.08" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-142.24"/>
+<junction x="-5.08" y="-142.24"/>
+<wire x1="-5.08" y1="-142.24" x2="27.94" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="7Q"/>
+<wire x1="27.94" y1="-142.24" x2="27.94" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-142.24" x2="66.04" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="27.94" y="-142.24"/>
+<pinref part="IC16" gate="A" pin="7Q"/>
+<wire x1="66.04" y1="-142.24" x2="66.04" y2="-137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC16" gate="A" pin="4Q"/>
+<wire x1="73.66" y1="-137.16" x2="73.66" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-149.86" x2="35.56" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="4Q"/>
+<wire x1="35.56" y1="-149.86" x2="35.56" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="IC11" gate="A" pin="4Q"/>
+<pinref part="IC15" gate="A" pin="4D"/>
+<wire x1="35.56" y1="-111.76" x2="35.56" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="IC16" gate="A" pin="4D"/>
+<pinref part="IC12" gate="A" pin="4Q"/>
+<wire x1="35.56" y1="-81.28" x2="35.56" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-68.58" x2="73.66" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-81.28" x2="73.66" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-81.28" x2="73.66" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="35.56" y="-81.28"/>
+<junction x="73.66" y="-81.28"/>
+<pinref part="IC3" gate="A" pin="4Q"/>
+<pinref part="IC9" gate="A" pin="4D"/>
+<wire x1="-60.96" y1="-43.18" x2="-60.96" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="4Q"/>
+<pinref part="IC12" gate="A" pin="4D"/>
+<wire x1="-60.96" y1="-12.7" x2="-60.96" y2="0" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-43.18" x2="73.66" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="4Q"/>
+<pinref part="IC11" gate="A" pin="4D"/>
+<wire x1="73.66" y1="-12.7" x2="73.66" y2="0" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-43.18" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-12.7" x2="35.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="73.66" y="-12.7"/>
+<junction x="35.56" y="-12.7"/>
+<pinref part="IC1" gate="A" pin="4D"/>
+<wire x1="-60.96" y1="93.98" x2="-60.96" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="4D"/>
+<wire x1="-60.96" y1="124.46" x2="-22.86" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="124.46" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="4D"/>
+<wire x1="35.56" y1="93.98" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="4D"/>
+<wire x1="35.56" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="124.46" x2="2.54" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-22.86" y="124.46"/>
+<junction x="35.56" y="124.46"/>
+<wire x1="2.54" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="124.46" x2="2.54" y2="157.48" width="0.1524" layer="91"/>
+<junction x="2.54" y="124.46"/>
+<wire x1="2.54" y1="124.46" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-182.88" x2="2.54" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="4Q"/>
+<pinref part="IC7" gate="A" pin="4D"/>
+<wire x1="2.54" y1="-149.86" x2="2.54" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-81.28" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<junction x="2.54" y="55.88"/>
+<junction x="35.56" y="55.88"/>
+<pinref part="IC8" gate="A" pin="4D"/>
+<pinref part="IC6" gate="A" pin="4Q"/>
+<wire x1="73.66" y1="68.58" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<junction x="73.66" y="55.88"/>
+<pinref part="IC2" gate="A" pin="4Q"/>
+<pinref part="IC4" gate="A" pin="4D"/>
+<wire x1="-22.86" y1="25.4" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="55.88" x2="-22.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-22.86" y="55.88"/>
+<pinref part="IC3" gate="A" pin="4D"/>
+<pinref part="IC1" gate="A" pin="4Q"/>
+<wire x1="-60.96" y1="68.58" x2="-60.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="55.88" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="55.88" x2="-60.96" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-60.96" y="55.88"/>
+<wire x1="35.56" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="2.54" y="-12.7"/>
+<pinref part="IC4" gate="A" pin="4Q"/>
+<pinref part="IC10" gate="A" pin="4D"/>
+<wire x1="-22.86" y1="-43.18" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-12.7" x2="-22.86" y2="0" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-12.7"/>
+<wire x1="-60.96" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-12.7"/>
+<wire x1="35.56" y1="-81.28" x2="2.54" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="2.54" y="-81.28"/>
+<pinref part="IC14" gate="A" pin="4D"/>
+<wire x1="-22.86" y1="-111.76" x2="-22.86" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="4Q"/>
+<wire x1="-22.86" y1="-81.28" x2="-22.86" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-81.28" x2="-22.86" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-81.28"/>
+<pinref part="IC13" gate="A" pin="4D"/>
+<pinref part="IC9" gate="A" pin="4Q"/>
+<wire x1="-60.96" y1="-68.58" x2="-60.96" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-81.28" x2="-60.96" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-81.28" x2="-60.96" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-81.28"/>
+<wire x1="35.56" y1="-149.86" x2="2.54" y2="-149.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="-149.86"/>
+<junction x="2.54" y="-149.86"/>
+<pinref part="IC14" gate="A" pin="4Q"/>
+<wire x1="-22.86" y1="-137.16" x2="-22.86" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-149.86" x2="2.54" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="4Q"/>
+<wire x1="-60.96" y1="-137.16" x2="-60.96" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-149.86" x2="-22.86" y2="-149.86" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-149.86"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="IC16" gate="A" pin="2Q"/>
+<wire x1="78.74" y1="-137.16" x2="78.74" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-154.94" x2="40.64" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="2Q"/>
+<wire x1="40.64" y1="-154.94" x2="40.64" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="IC15" gate="A" pin="2D"/>
+<pinref part="IC11" gate="A" pin="2Q"/>
+<wire x1="40.64" y1="-68.58" x2="40.64" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="IC16" gate="A" pin="2D"/>
+<pinref part="IC12" gate="A" pin="2Q"/>
+<wire x1="40.64" y1="-86.36" x2="40.64" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-68.58" x2="78.74" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-86.36" x2="78.74" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-86.36" x2="78.74" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="40.64" y="-86.36"/>
+<junction x="78.74" y="-86.36"/>
+<pinref part="IC9" gate="A" pin="2D"/>
+<pinref part="IC3" gate="A" pin="2Q"/>
+<wire x1="-55.88" y1="0" x2="-55.88" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="A" pin="2Q"/>
+<pinref part="IC12" gate="A" pin="2D"/>
+<wire x1="-55.88" y1="-17.78" x2="-55.88" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-43.18" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="2Q"/>
+<pinref part="IC11" gate="A" pin="2D"/>
+<wire x1="78.74" y1="-17.78" x2="78.74" y2="0" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-43.18" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-17.78" x2="40.64" y2="0" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="78.74" y="-17.78"/>
+<junction x="40.64" y="-17.78"/>
+<pinref part="IC5" gate="A" pin="2D"/>
+<wire x1="40.64" y1="93.98" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="2D"/>
+<wire x1="40.64" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="2D"/>
+<wire x1="-55.88" y1="93.98" x2="-55.88" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="2D"/>
+<wire x1="-55.88" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="119.38" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
+<junction x="40.64" y="119.38"/>
+<junction x="-17.78" y="119.38"/>
+<wire x1="7.62" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="119.38" x2="7.62" y2="157.48" width="0.1524" layer="91"/>
+<junction x="7.62" y="119.38"/>
+<wire x1="7.62" y1="119.38" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-182.88" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="2D"/>
+<pinref part="IC5" gate="A" pin="2Q"/>
+<wire x1="7.62" y1="-154.94" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-86.36" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="68.58" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<junction x="7.62" y="50.8"/>
+<junction x="40.64" y="50.8"/>
+<pinref part="IC8" gate="A" pin="2D"/>
+<pinref part="IC6" gate="A" pin="2Q"/>
+<wire x1="78.74" y1="68.58" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="50.8" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<junction x="78.74" y="50.8"/>
+<pinref part="IC4" gate="A" pin="2D"/>
+<pinref part="IC2" gate="A" pin="2Q"/>
+<wire x1="-17.78" y1="68.58" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="50.8" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-17.78" y="50.8"/>
+<pinref part="IC3" gate="A" pin="2D"/>
+<pinref part="IC1" gate="A" pin="2Q"/>
+<wire x1="-55.88" y1="68.58" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="50.8" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="50.8" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-55.88" y="50.8"/>
+<wire x1="40.64" y1="-17.78" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="7.62" y="-17.78"/>
+<pinref part="IC10" gate="A" pin="2D"/>
+<pinref part="IC4" gate="A" pin="2Q"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-17.78" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-17.78" y="-17.78"/>
+<wire x1="-55.88" y1="-17.78" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-55.88" y="-17.78"/>
+<wire x1="40.64" y1="-86.36" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="7.62" y="-86.36"/>
+<pinref part="IC14" gate="A" pin="2D"/>
+<wire x1="-17.78" y1="-68.58" x2="-17.78" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="A" pin="2Q"/>
+<wire x1="-17.78" y1="-86.36" x2="-17.78" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-86.36" x2="-17.78" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-17.78" y="-86.36"/>
+<pinref part="IC13" gate="A" pin="2D"/>
+<pinref part="IC9" gate="A" pin="2Q"/>
+<wire x1="-55.88" y1="-68.58" x2="-55.88" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-86.36" x2="-55.88" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-86.36" x2="-55.88" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-55.88" y="-86.36"/>
+<wire x1="40.64" y1="-154.94" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="40.64" y="-154.94"/>
+<junction x="7.62" y="-154.94"/>
+<pinref part="IC14" gate="A" pin="2Q"/>
+<wire x1="-17.78" y1="-137.16" x2="-17.78" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-154.94" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="2Q"/>
+<wire x1="-55.88" y1="-137.16" x2="-55.88" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-154.94" x2="-17.78" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="-17.78" y="-154.94"/>
 </segment>
 </net>
 </nets>
